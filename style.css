@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+     padding-left:40px;
+     padding-top:20px;
+     padding-bottom:20px;
+     font-size: 30px;
+     font-family: Andale Mono, monospace;
+     background-color: black;              
+     color:#A9A9A9;
+     }
+  .title{
+     margin-top: 70px;
+     margin-bottom: 50px;
+     margin-right: auto;
+     width: 6em;
+     font-size: 2em;
+     align-items: center;
+     font-family: Andale Mono, monospace;
+  }
+  
+  .container {
+    width: 50%;
+    margin: auto;
+  }
+  
+  #btn{
+      height: 40px;
+      background-color: rgba(31, 31, 190, 0.904);
+      color: white;
+      padding: 0 10px;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 5px;
+      border: 0;
+  }
+  #inp{
+    padding: 10px;
+    outline: none;
+    height: 40px;
+    width: 75%;
+    margin-right: 50px;
+  }
+  .heading{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-left: 50px;
+  }
+  #list{
+    width: 100%;
+    padding: 20px;
+  }
+  #list li{
+    border: solid 1px gray;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-size: 25px;
+  }
+  .li_item{
+    width: 80%;
+  }
+  #list input {
+    margin-right: 30px;
+  }
+  .deleted{
+    display: none;
+  }
+  .cross{
+    text-decoration: line-through;
+  }
+  #Layer_1{
+    height: 30px;
+    width: 30px;
+    fill: red;
+  }
+  #rowD{
+    border: 0;
+    background: white;
+  }
